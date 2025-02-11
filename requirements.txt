@@ -10,4 +10,5 @@ dill
 flask
 flask_cors
 lime
+dill
 -e .
