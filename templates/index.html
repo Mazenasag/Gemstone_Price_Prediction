@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemstone Price Predictor</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Gemstone Price Predictor</h1>
+      <p>
+        This application helps predict gemstone prices based on various factors
+        such as carat, cut, color, clarity, and dimensions.
+      </p>
+
+      <div class="features">
+        <h2>How It Works:</h2>
+        <ul>
+          <li>
+            Enter gemstone details such as carat, cut, color, clarity, and
+            dimensions.
+          </li>
+          <li>
+            Our model predicts the expected price based on the given data.
+          </li>
+        </ul>
+      </div>
+
+      <button
+        onclick="window.location.href='{{ url_for('predict_datapoint') }}'"
+      >
+        Predict Now
+      </button>
+    </div>
+  </body>
+</html>
