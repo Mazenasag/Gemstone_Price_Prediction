@@ -53,6 +53,17 @@ This project aims to predict the price of diamonds based on various features suc
 - **Decision Tree** severely overfitted the training data, leading to poor generalization.
 - **K-Neighbors Regressor** performed moderately but was not as effective as tree-based models.
 
+# Exploratory Data Analysis Notebook
+
+Link : [EDA Notebook](./notebook/1_EDA_Gemstone_price.ipynb)
+
+# Model Training Approach Notebook
+
+Link : [Model Training Notebook](./notebook/2_Model_Training_Gemstone.ipynb)
+
+# Model Interpretation with LIME
+
+Link : [LIME Interpretation](./notebook/3_Explainability_with_LIME.ipynb)
 🛠️ **How to Run the Project**
 
 1. Clone the repository:
