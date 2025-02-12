@@ -64,6 +64,11 @@ Link : [Model Training Notebook](./notebook/2_Model_Training_Gemstone.ipynb)
 # Model Interpretation with LIME
 
 Link : [LIME Interpretation](./notebook/3_Explainability_with_LIME.ipynb)
+
+
+# Screenshot of UI
+
+![HomepageUI](./Screenshots/HomepageUI.jpg) 
 🛠️ **How to Run the Project**
 
 1. Clone the repository:
