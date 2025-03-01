@@ -1,5 +1,4 @@
 # Diamond Price Prediction
-
 ![Alt Text](static/Capture.PNG)
 
 📌 **Problem Statement**
